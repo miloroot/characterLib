@@ -1,0 +1,70 @@
+<div class="row">
+  <div class="col-md-12">
+    <h3>This is the WORLD OF WARCRAFT view.</h3>
+    <p>
+      The data/information to the left is being fetched via the
+      world of warcraft API (dev.battle.net).
+    </p>
+    <p>
+      Since this website is AngularJS only, it is needed to use
+      <i>$http.jsonp("URL").success(function(data){...});</i> to
+      render the data/information.
+    </p>
+  </div>
+</div>
+<h3>Characters:</h3>
+<div class="row">
+  <div class="col-md-9">
+    <p>
+      {{ suavemente.name }}, {{ suavemente.realm }}. <br>
+      Health: {{ suavemente.stats.health }} <br>
+      Power type: {{ suavemente.stats.powerType}} <br>
+      Talent spec.: {{ suavemente.talents[0].spec.name }}
+    </p>
+  </div>
+  <div class="col-md-3">
+    <img src="https://eu.battle.net/static-render/eu/{{suavemente.thumbnail}}">
+  </div>
+</div>
+    <hr>
+<div class="row">
+  <div class="col-md-9">
+    <p>
+      {{ magustroll.name }}, {{ magustroll.realm }}. <br>
+      Health: {{ magustroll.stats.health }} <br>
+      Power type: {{ magustroll.stats.powerType }} <br>
+      Talent spec.: {{ magustroll.talents[0].spec.name }}
+    </p>
+  </div>
+  <div class="col-md-3">
+    <img src="https://eu.battle.net/static-render/eu/{{magustroll.thumbnail}}">
+  </div>
+</div>
+    <hr>
+<div class="row">
+  <div class="col-md-9">
+    <p>
+      {{ benjamin.name }}, {{ benjamin.realm}}. <br>
+      Health: {{ benjamin.stats.health }} <br>
+      Power type: {{ benjamin.stats.powerType }} <br>
+      Talent spec.: {{ benjamin.talents[0].spec.name }}
+    </p>
+  </div>
+  <div class="col-md-3">
+    <img src="https://eu.battle.net/static-render/eu/{{benjamin.thumbnail}}">
+  </div>
+</div>
+    <hr>
+<div class="row">
+  <div class="col-md-9">
+    <p>
+      {{ marselus.name}}, {{ marselus.realm}}. <br>
+      Health: {{ marselus.stats.health }} <br>
+      Power type: {{ marselus.stats.powerType }} <br>
+      Talent spec.: {{ marselus.talents[0].spec.name }}
+    </p>
+  </div>
+  <div class="col-md-3">
+    <img src="https://eu.battle.net/static-render/eu/{{marselus.thumbnail}}">
+  </div>
+</div>

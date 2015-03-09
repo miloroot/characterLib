@@ -1,0 +1,44 @@
+[
+  {
+    "name" : "Suavemente",
+    "race" : "tauren",
+    "class" : "warrior",
+    "level" : 100
+  },
+  {
+    "name" : "Kitialamok",
+    "race" : "tauren",
+    "class" : "warrior",
+    "level" : 100
+  },
+  {
+    "name" : "Mistrala",
+    "race" : "draenei",
+    "class" : "warrior",
+    "level" : 100
+  },
+  {
+    "name" : "Magustroll",
+    "race" : "troll",
+    "class" : "mage",
+    "level" : 100
+  },
+  {
+    "name" : "Marselus",
+    "race" : "gnome",
+    "class" : "mage",
+    "level" : 100
+  },
+  {
+    "name" : "Benjamin",
+    "race" : "dwarf",
+    "class" : "rogue",
+    "level" : 100
+  },
+  {
+    "name" : "Trabunco",
+    "race" : "worgen",
+    "class" : "hunter",
+    "level" : 100
+  }
+]

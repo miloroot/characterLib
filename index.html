@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <base href="/tryatom/">
+
+    <title>Trying Atom texteditor. With an AngularJS driven site.</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.3.14/angular-route.min.js"></script>
+
+    <!-- CORE APP FILES -->
+    <script src="js/app.js"></script>
+    <script src="js/homeController.js"></script>
+    <script src="js/wowController.js"></script>
+    <script src="js/warframeController.js"></script>
+  </head>
+  <body ng-app="gameCollection">
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+          <li><a href="home">HOME</a></li>
+          <li><a href="wow">WORLD OF WARCRAFT</a></li>
+          <li><a href="warframe">WARFRAME</a></li>
+        </ul>
+      </nav>
+      <div ng-view></div>
+    </div>
+  </body>
+</html>
