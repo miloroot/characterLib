@@ -68,3 +68,31 @@
     <img src="https://eu.battle.net/static-render/eu/{{marselus.thumbnail}}">
   </div>
 </div>
+    <hr>
+<div class="row">
+  <div class="col-md-9">
+    <p>
+      {{ toonName.name}}, {{ toonName.realm}}. <br>
+      Health: {{ toonName.stats.health }} <br>
+      Power type: {{ toonName.stats.powerType }} <br>
+      Talent spec.: {{ toonName.talents[0].spec.name }}
+    </p>
+  </div>
+  <div class="col-md-3">
+    <img src="https://eu.battle.net/static-render/eu/{{toonName.thumbnail}}">
+  </div>
+</div>
+    <hr>
+<div class="row">
+  <div class="col-md-9">
+    <p>
+      {{ toonName[0].name}}, {{ coder.realm}}. <br>
+      Health: {{ toonName.stats.health }} <br>
+      Power type: {{ toonName.stats.powerType }} <br>
+      Talent spec.: {{ toonName.talents[0].spec.name }}
+    </p>
+  </div>
+  <div class="col-md-3">
+    <img src="https://eu.battle.net/static-render/eu/{{toonName.thumbnail}}">
+  </div>
+</div>
